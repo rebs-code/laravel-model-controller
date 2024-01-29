@@ -10,7 +10,13 @@
 </head>
 
 <body>
-    <h1>hello laravel</h1>
+    <div class="container d-flex flex-wrap">
+        @foreach ($movies as $movie)
+            <div class="card movie-card">
+                <h3>{{ $movie['title'] }}</h3>
+            </div>
+        @endforeach
+    </div>
 </body>
 
 </html>
