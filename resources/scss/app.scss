@@ -3,28 +3,20 @@
 .movie-card {
     width: calc(25% - 2rem);
     margin: 1rem;
-    .card-img-top {
-        height: 20rem;
-        object-fit: cover;
+
+    .card-title {
+        font-size: 1.5rem;
+        height: 100px;
     }
+
     .card-body {
         height: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .card-title {
-        font-size: 1.5rem;
-    }
+
     .card-text {
         font-size: 1rem;
-    }
-    .card-footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .card-footer .btn {
-        width: 100%;
     }
 }
